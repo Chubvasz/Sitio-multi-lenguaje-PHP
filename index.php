@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require "requierelenguaje.php";
+    require "idioma.php";
 ?>
 <!DOCTYPE html>
 <html lang="es">

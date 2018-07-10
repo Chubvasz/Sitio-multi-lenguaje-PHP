@@ -12,24 +12,24 @@ if (isset($_SESSION["language"])) {
 }
 switch ($lang) {
     case 'fr':
-        include ("language/fr.php");
+        include ("strings/fr.php");
         break;
     
     case 'it':
-        include ("language/it.php");
+        include ("strings/it.php");
         break;
     
     case 'es':
-        include ("language/es.php");
+        include ("strings/es.php");
         break;
 
     case 'en':
-        include ("language/en.php");
+        include ("strings/en.php");
         break;
 
     default:
-        # idioma default en caso de encontrar cualquier otro idioa del navegador
-        include ("language/en.php");
+        # idioma default en caso de encontrar cualquier otro idioma del navegador
+        include ("strings/en.php");
         break;
 }
 
